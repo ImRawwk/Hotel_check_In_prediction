@@ -35,6 +35,7 @@ Your prediction will be generated!!!
 ## Bonus Questions - 
 
 1. Write about any difficult problem that you solved. (According to us difficult - is something which 90% of people would have only 10% probability in getting a similarly good solution). 
+
 Ans - 
       There are a few such difficult problems I have worked on till date - (I will also put the links of blogs to these problems below) 
       1. Ashrae - The Great Energy Predictor III
@@ -60,6 +61,7 @@ Ans -
       
       
 2. Explain back propagation and tell us how you handle a dataset if 4 out of 30 parameters have null values more than 40 percentage?
+
 Ans - 
       Backpropogation can be defined as the process of weight adjustment for nueron by looking at the difference between the predicted and the actual results.Backpropogation is like the last layer of neurons giving feedback to the previos layers on how to better adjust their weights & biases to reduce the difference between actual & predicted results.
       
