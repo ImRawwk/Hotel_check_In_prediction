@@ -63,12 +63,11 @@ Ans -
 Ans - 
       Backpropogation can be defined as the process of weight adjustment for nueron by looking at the difference between the predicted and the actual results.Backpropogation is like the last layer of neurons giving feedback to the previos layers on how to better adjust their weights & biases to reduce the difference between actual & predicted results.
       
- 2b. How to handle if 4 out of 30 parameters have null values more than 40 percentage?
- Ans.
-    Depends on what type of data it is if its categorical data we can assign it  new  missing       label to all the missing entires so the missing data has a new categoty called missing.
-    If its numerical data we can fill it with the most frequent value or mean value depending on 
-    the data that is provided.
-    Apart from this we can also add a binary missing indicator to all these rows so that the         model that the value is an imputed one.It can be done somewhat this way - 
+   2b. How to handle if 4 out of 30 parameters have null values more than 40 percentage?
+   Ans.
+    Depends on what type of data it is if its categorical data we can assign it  new  missing label to all the missing entires so the missing data has a new
+    categoty called missing.If its numerical data we can fill it with the most frequent value or mean value depending on the data that is provided.
+    Apart from this we can also add a binary missing indicator to all these rows so that the model that the value is an imputed one.It can be done somewhat this way - 
     X_train[var + '_na'] = np.where(X_train[var].isnull()).
      
      
